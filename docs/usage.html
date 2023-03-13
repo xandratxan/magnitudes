@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Guide &mdash; Magnitudes 0.0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            Magnitudes
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="info.html">Useful information</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="info.html#about-magnitudes">About <code class="docutils literal notranslate"><span class="pre">magnitudes</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="info.html#release-history">Release History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="info.html#authors-and-contributors">Authors and contributors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="info.html#indices-and-tables">Indices and tables</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="tutorial.html">Tutorial</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="tutorial.html#installation">Installation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="tutorial.html#operating-with-magnitudes">Operating with magnitudes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="howto.html">How to guides</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="howto.html#how-to-define-a-magnitude">How to define a magnitude</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="howto.html#how-to-define-a-magnitude-with-uncertainty">How to define a magnitude with uncertainty</a></li>
+<li class="toctree-l3"><a class="reference internal" href="howto.html#how-to-define-a-magnitude-without-uncertainty">How to define a magnitude without uncertainty</a></li>
+<li class="toctree-l3"><a class="reference internal" href="howto.html#how-to-define-a-non-dimensional-magnitude">How to define a non-dimensional magnitude</a></li>
+<li class="toctree-l3"><a class="reference internal" href="howto.html#how-to-not-define-a-magnitude">How to not define a magnitude</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="howto.html#how-to-operate-with-magnitudes">How to operate with magnitudes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="howto.html#how-to-sum-and-subtract-magnitudes">How to sum and subtract magnitudes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="howto.html#how-to-multiply-and-divide-magnitudes">How to multiply and divide magnitudes</a></li>
+<li class="toctree-l3"><a class="reference internal" href="howto.html#how-to-operate-with-more-than-two-magnitudes">How to operate with more than two magnitudes</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="api.html#module-magnitude">magnitude</a></li>
+<li class="toctree-l2"><a class="reference internal" href="api.html#magnitude-magnitude">magnitude.Magnitude</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="api.html#magnitude.Magnitude"><code class="docutils literal notranslate"><span class="pre">Magnitude</span></code></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="api.html#magnitude.Magnitude.value"><code class="docutils literal notranslate"><span class="pre">Magnitude.value</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api.html#magnitude.Magnitude.unit"><code class="docutils literal notranslate"><span class="pre">Magnitude.unit</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api.html#magnitude.Magnitude.uncertainty"><code class="docutils literal notranslate"><span class="pre">Magnitude.uncertainty</span></code></a></li>
+<li class="toctree-l4"><a class="reference internal" href="api.html#magnitude.Magnitude.relative_uncertainty"><code class="docutils literal notranslate"><span class="pre">Magnitude.relative_uncertainty</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Magnitudes</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">User Guide</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/usage.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="user-guide">
+<h1>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this heading"></a></h1>
+<p>This page gives a good introduction in how to get started with <code class="docutils literal notranslate"><span class="pre">magnitudes</span></code>.</p>
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h2>
+<p><code class="docutils literal notranslate"><span class="pre">magnitudes</span></code> can be installed via pip after downloading the package from GitHub:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">git</span><span class="nd">@github</span><span class="o">.</span><span class="n">com</span><span class="p">:</span><span class="n">xandratxan</span><span class="o">/</span><span class="n">magnitudes</span><span class="o">.</span><span class="n">git</span>
+<span class="n">cd</span> <span class="n">magnitudes</span>
+<span class="n">pip</span> <span class="n">install</span> <span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="how-to-define-a-magnitude">
+<h2>How to define a magnitude<a class="headerlink" href="#how-to-define-a-magnitude" title="Permalink to this heading"></a></h2>
+<p>Magnitudes are defined as instantiations of the class <code class="docutils literal notranslate"><span class="pre">Magnitude</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">magnitude</span> <span class="kn">import</span> <span class="n">Magnitude</span>
+</pre></div>
+</div>
+<p>Magnitudes must have value, uncertainty and unit.
+If absolute uncertainty is provided, relative uncertainty will be calculated:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Magnitude(value=20, unit=&#39;m&#39;, uncertainty=2)
+20 ± 2 m (10.0%)
+</pre></div>
+</div>
+<p>If relative uncertainty is provided, absolute uncertainty will be calculated:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Magnitude(value=30, unit=&#39;m&#39;, relative_uncertainty=0.1)
+30 ± 3.0 m (10.0%)
+</pre></div>
+</div>
+<p>If both uncertainties are provided, the agreement between values will be checked.
+If both uncertainties are equivalent, the magnitude will be defined correctly:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Magnitude(value=20, unit=&#39;m&#39;, uncertainty=2, relative_uncertainty=0.1)
+20 ± 2 m (10.0%)
+</pre></div>
+</div>
+<p>If both uncertainties are not equivalent, an exception will be raised:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Magnitude</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="n">uncertainty</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">relative_uncertainty</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s2">&quot;/snap/pycharm-professional/325/plugins/python/helpers/pydev/pydevconsole.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">364</span><span class="p">,</span> <span class="ow">in</span> <span class="n">runcode</span>
+    <span class="n">coro</span> <span class="o">=</span> <span class="n">func</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;&lt;input&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">70</span><span class="p">,</span> <span class="ow">in</span> <span class="fm">__init__</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_magnitude_consistency_check</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">134</span><span class="p">,</span> <span class="ow">in</span> <span class="n">_magnitude_consistency_check</span>
+    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Absolute and relative uncertainties do not match.&#39;</span><span class="p">)</span>
+<span class="ne">ValueError</span><span class="p">:</span> <span class="n">Absolute</span> <span class="ow">and</span> <span class="n">relative</span> <span class="n">uncertainties</span> <span class="n">do</span> <span class="ow">not</span> <span class="n">match</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Magnitudes without uncertainties may be defined with zero uncertainty:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Magnitude(value=20, unit=&#39;m&#39;, uncertainty=0)
+20 ± 0 m (0.0%)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Magnitude(value=20, unit=&#39;m&#39;, relative_uncertainty=0)
+20 ± 0 m (0%)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Magnitude(value=20, unit=&#39;m&#39;, uncertainty=0, relative_uncertainty=0)
+20 ± 0 m (0%)
+</pre></div>
+</div>
+<p>Magnitudes can defined with zero value, but they may be tricky: uncertainties may not have physical meaning:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Magnitude(value=0, unit=&#39;m&#39;, uncertainty=0.1)
+0 ± 0.1 m (inf%)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Magnitude(value=0, unit=&#39;m&#39;, relative_uncertainty=0.1)
+0 ± 0.0 m (10.0%)
+</pre></div>
+</div>
+</section>
+<section id="how-not-to-define-magnitude">
+<h2>How not to define magnitude<a class="headerlink" href="#how-not-to-define-magnitude" title="Permalink to this heading"></a></h2>
+<p>Magnitudes must have uncertainties. They cannot be defined with no uncertainties:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Magnitude</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;m&#39;</span><span class="p">)</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s2">&quot;/snap/pycharm-professional/325/plugins/python/helpers/pydev/pydevconsole.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">364</span><span class="p">,</span> <span class="ow">in</span> <span class="n">runcode</span>
+    <span class="n">coro</span> <span class="o">=</span> <span class="n">func</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;&lt;input&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">70</span><span class="p">,</span> <span class="ow">in</span> <span class="fm">__init__</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_magnitude_consistency_check</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">147</span><span class="p">,</span> <span class="ow">in</span> <span class="n">_magnitude_consistency_check</span>
+    <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Magnitudes must have uncertainties.&#39;</span><span class="p">)</span>
+<span class="ne">TypeError</span><span class="p">:</span> <span class="n">Magnitudes</span> <span class="n">must</span> <span class="n">have</span> <span class="n">uncertainties</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Magnitudes cannot be defined with negative uncertainties, since it has no physical meaning:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Magnitude</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="n">uncertainty</span><span class="o">=-</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s2">&quot;/snap/pycharm-professional/325/plugins/python/helpers/pydev/pydevconsole.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">364</span><span class="p">,</span> <span class="ow">in</span> <span class="n">runcode</span>
+    <span class="n">coro</span> <span class="o">=</span> <span class="n">func</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;&lt;input&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">70</span><span class="p">,</span> <span class="ow">in</span> <span class="fm">__init__</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_magnitude_consistency_check</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">149</span><span class="p">,</span> <span class="ow">in</span> <span class="n">_magnitude_consistency_check</span>
+    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Uncertainties must be positive.&#39;</span><span class="p">)</span>
+<span class="ne">ValueError</span><span class="p">:</span> <span class="n">Uncertainties</span> <span class="n">must</span> <span class="n">be</span> <span class="n">positive</span><span class="o">.</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Magnitude</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="n">relative_uncertainty</span><span class="o">=-</span><span class="mf">0.1</span><span class="p">)</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s2">&quot;/snap/pycharm-professional/325/plugins/python/helpers/pydev/pydevconsole.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">364</span><span class="p">,</span> <span class="ow">in</span> <span class="n">runcode</span>
+    <span class="n">coro</span> <span class="o">=</span> <span class="n">func</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;&lt;input&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">70</span><span class="p">,</span> <span class="ow">in</span> <span class="fm">__init__</span>
+    <span class="bp">self</span><span class="o">.</span><span class="n">_magnitude_consistency_check</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">149</span><span class="p">,</span> <span class="ow">in</span> <span class="n">_magnitude_consistency_check</span>
+    <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s1">&#39;Uncertainties must be positive.&#39;</span><span class="p">)</span>
+<span class="ne">ValueError</span><span class="p">:</span> <span class="n">Uncertainties</span> <span class="n">must</span> <span class="n">be</span> <span class="n">positive</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="sum-and-subtract-magnitudes">
+<h2>Sum and subtract magnitudes<a class="headerlink" href="#sum-and-subtract-magnitudes" title="Permalink to this heading"></a></h2>
+<p>First, define some magnitudes to operate with them:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">m1</span> <span class="o">=</span> <span class="n">Magnitude</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span> <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="n">uncertainty</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">m2</span> <span class="o">=</span> <span class="n">Magnitude</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;m&#39;</span><span class="p">,</span> <span class="n">uncertainty</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">m3</span> <span class="o">=</span> <span class="n">Magnitude</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">20</span><span class="p">,</span> <span class="n">unit</span><span class="o">=</span><span class="s1">&#39;cm&#39;</span><span class="p">,</span> <span class="n">uncertainty</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Magnitudes can be summed or subtracted as long as they have the same units:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>m1 + m2
+30 ± 2.23606797749979 m (7.4535599249993%)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>m2 - m1
+10 ± 2.23606797749979 m (22.360679774997898%)
+</pre></div>
+</div>
+<p>If they have different units, an exception will be raised:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">m1</span> <span class="o">+</span> <span class="n">m3</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s2">&quot;/snap/pycharm-professional/325/plugins/python/helpers/pydev/pydevconsole.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">364</span><span class="p">,</span> <span class="ow">in</span> <span class="n">runcode</span>
+    <span class="n">coro</span> <span class="o">=</span> <span class="n">func</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;&lt;input&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">83</span><span class="p">,</span> <span class="ow">in</span> <span class="fm">__add__</span>
+    <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Added magnitudes must have the same units.&#39;</span><span class="p">)</span>
+<span class="ne">TypeError</span><span class="p">:</span> <span class="n">Added</span> <span class="n">magnitudes</span> <span class="n">must</span> <span class="n">have</span> <span class="n">the</span> <span class="n">same</span> <span class="n">units</span><span class="o">.</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">m2</span> <span class="o">-</span> <span class="n">m3</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s2">&quot;/snap/pycharm-professional/325/plugins/python/helpers/pydev/pydevconsole.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">364</span><span class="p">,</span> <span class="ow">in</span> <span class="n">runcode</span>
+    <span class="n">coro</span> <span class="o">=</span> <span class="n">func</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;&lt;input&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">93</span><span class="p">,</span> <span class="ow">in</span> <span class="fm">__sub__</span>
+    <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Subtracted magnitudes must have the same units.&#39;</span><span class="p">)</span>
+<span class="ne">TypeError</span><span class="p">:</span> <span class="n">Subtracted</span> <span class="n">magnitudes</span> <span class="n">must</span> <span class="n">have</span> <span class="n">the</span> <span class="n">same</span> <span class="n">units</span><span class="o">.</span>
+</pre></div>
+</div>
+</section>
+<section id="multiply-and-divide-magnitudes">
+<h2>Multiply and divide magnitudes<a class="headerlink" href="#multiply-and-divide-magnitudes" title="Permalink to this heading"></a></h2>
+<p>Magnitudes can be multiplied or divided independently of their units.
+The unit resulting from the product or the division will be the concatenation of the individual magnitudes:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>m1 * m2
+200 ± 28.284271247461906 m·m (14.142135623730953%)
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>m2 / m1
+2.0 ± 0.28284271247461906 m/m (14.142135623730953%)
+</pre></div>
+</div>
+</section>
+<section id="combining-summation-subtraction-with-product-division">
+<h2>Combining summation/subtraction with product/division<a class="headerlink" href="#combining-summation-subtraction-with-product-division" title="Permalink to this heading"></a></h2>
+<p>Multiple magnitudes can be summed and/or subtracted as long as they have the same units:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>m1 + m2 + m1 - m2
+20 ± 3.1622776601683795 m (15.811388300841896%)
+</pre></div>
+</div>
+<p>Multiple magnitudes can be multiplied and/or divided independently of their units:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>m1 * m2 / m3
+10.0 ± 1.7320508075688776 m·m/cm (17.320508075688775%)
+</pre></div>
+</div>
+<p>However, combining summation/subtraction with product/division require some units management.
+Trying to do <code class="docutils literal notranslate"><span class="pre">m1</span> <span class="pre">*</span> <span class="pre">m2</span> <span class="pre">+</span> <span class="pre">m4</span></code> will raise an error since the units of <code class="docutils literal notranslate"><span class="pre">m1</span> <span class="pre">*</span> <span class="pre">m2</span></code> are <code class="docutils literal notranslate"><span class="pre">'m·m'</span></code> while the units of <code class="docutils literal notranslate"><span class="pre">m4</span></code> are <code class="docutils literal notranslate"><span class="pre">'m²'</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">m1</span> <span class="o">*</span> <span class="n">m2</span> <span class="o">+</span> <span class="n">m4</span>
+<span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+  <span class="n">File</span> <span class="s2">&quot;/snap/pycharm-professional/325/plugins/python/helpers/pydev/pydevconsole.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">364</span><span class="p">,</span> <span class="ow">in</span> <span class="n">runcode</span>
+    <span class="n">coro</span> <span class="o">=</span> <span class="n">func</span><span class="p">()</span>
+  <span class="n">File</span> <span class="s2">&quot;&lt;input&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+  <span class="n">File</span> <span class="s2">&quot;/home/txan/PycharmProjects/testProject/venv/lib/python3.10/site-packages/magnitude/magnitude.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">83</span><span class="p">,</span> <span class="ow">in</span> <span class="fm">__add__</span>
+    <span class="k">raise</span> <span class="ne">TypeError</span><span class="p">(</span><span class="s1">&#39;Added magnitudes must have the same units.&#39;</span><span class="p">)</span>
+<span class="ne">TypeError</span><span class="p">:</span> <span class="n">Added</span> <span class="n">magnitudes</span> <span class="n">must</span> <span class="n">have</span> <span class="n">the</span> <span class="n">same</span> <span class="n">units</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>First, we need to define a new magnitude <code class="docutils literal notranslate"><span class="pre">m</span></code> as <code class="docutils literal notranslate"><span class="pre">m1</span> <span class="pre">*</span> <span class="pre">m2</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>m = m1 * m2
+m
+200 ± 28.284271247461906 m·m (14.142135623730953%)
+</pre></div>
+</div>
+<p>Then, we need to change the unit of <code class="docutils literal notranslate"><span class="pre">m</span></code> from <code class="docutils literal notranslate"><span class="pre">'m·m'</span></code> to <code class="docutils literal notranslate"><span class="pre">'m²'</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>m.unit = &#39;m²&#39;
+m
+200 ± 28.284271247461906 m² (14.142135623730953%)
+</pre></div>
+</div>
+<p>Finally we can do <code class="docutils literal notranslate"><span class="pre">m</span> <span class="pre">+</span> <span class="pre">m4</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>m + m4
+220 ± 28.354893757515654 m² (12.888588071598026%)
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Xandra Campo.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
